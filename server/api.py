@@ -3,6 +3,7 @@ import pickle
 from flask import Flask, request
 import pandas as pd
 
+
 app = Flask(__name__)
 
 # needed because of portuguese characters like "ê"
